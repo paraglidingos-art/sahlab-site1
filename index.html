@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>סחלב מצנחים - אוהד סוחובולסקי | חוויה מוזיקלית בשמיים</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Heebo', sans-serif; }
+        .hero-gradient {
+            background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1516746817340-977799276274?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
+            background-size: cover;
+            background-position: center;
+        }
+        .music-card {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-900">
+
+    <!-- Header / Logo Area -->
+    <header class="fixed top-0 w-full z-50 bg-white/90 backdrop-blur shadow-sm p-4 flex justify-between items-center">
+        <div class="font-black text-2xl text-blue-600 tracking-tighter">סחלב מצנחים</div>
+        <a href="https://wa.me/972506968511" class="bg-green-500 text-white px-4 py-2 rounded-full font-bold text-sm flex items-center gap-2">
+            <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M12.031 6.172c-2.277 0-4.132 1.854-4.132 4.132 0 .633.143 1.233.399 1.771L7.151 15.11l3.155-.828c.508.232 1.074.364 1.671.364 2.277 0 4.132-1.854 4.132-4.132s-1.855-4.132-4.132-4.132m.054 10.375c-.59 0-1.168-.148-1.68-.429l-.12-.066-1.852.486.495-1.801-.073-.116a4.086 4.086 0 0 1-.628-2.193c0-2.26 1.838-4.098 4.098-4.098 2.26 0 4.098 1.838 4.098 4.098 0 2.26-1.838 4.098-4.098 4.098"></path></svg>
+            דברו איתי
+        </a>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-gradient min-h-[80vh] flex flex-col items-center justify-center text-center text-white px-6 pt-20">
+        <h1 class="text-4xl md:text-6xl font-black mb-4 leading-tight">לרקוד בשמיים <br><span class="text-blue-400">לצלילי המוזיקה שלכם</span></h1>
+        <p class="text-xl md:text-2xl mb-8 max-w-2xl opacity-90">החוויה המרגשת בישראל: טאנדם אקרובטי מעל חופי נתניה עם פסקול אישי שמופק במיוחד עבורכם.</p>
+        
+        <div class="flex flex-col sm:flex-row gap-4 w-full max-w-md">
+            <button onclick="scrollToSection('pricing')" class="bg-blue-600 hover:bg-blue-700 text-white text-lg font-bold py-4 px-8 rounded-xl shadow-lg transition-all transform hover:scale-105">
+                הזמינו טיסה עכשיו
+            </button>
+            <button onclick="scrollToSection('gift')" class="bg-white/20 hover:bg-white/30 backdrop-blur text-white text-lg font-bold py-4 px-8 rounded-xl border border-white/50 transition-all">
+                קניית שובר מתנה 🎁
+            </button>
+        </div>
+
+        <div class="mt-12 flex items-center gap-2 bg-black/30 p-2 px-4 rounded-full text-sm">
+            <span class="text-yellow-400">★★★★★</span>
+            <span>מטיס בביטחון מאז 1998</span>
+        </div>
+    </section>
+
+    <!-- YouTube Feature -->
+    <section class="py-20 px-6 max-w-4xl mx-auto">
+        <div class="text-center mb-10">
+            <h2 class="text-3xl font-bold mb-2">צפו בחוויה: "מחכים למשיח"</h2>
+            <p class="text-gray-600">הקליפ ששבר את הרשת - אקרובטיקה בשמיים לצלילי מוזיקה מקורית</p>
+        </div>
+        <div class="aspect-video bg-gray-200 rounded-3xl overflow-hidden shadow-2xl">
+            <!-- Replace with actual YouTube Embed Link for "Machim LaMashiach" -->
+            <iframe class="w-full h-full" src="https://www.youtube.com/embed/S_7M_P8t9q4" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <!-- Unique Selling Points -->
+    <section class="bg-blue-900 py-20 px-6 text-white">
+        <div class="max-w-6xl mx-auto grid md:grid-cols-3 gap-12">
+            <div class="text-center">
+                <div class="text-5xl mb-4 text-blue-400 font-black">25+</div>
+                <h3 class="text-xl font-bold mb-2">שנות ניסיון</h3>
+                <p class="opacity-70">אוהד סוחובולסקי, טייס מיומן מ-1998 עם דגש על בטיחות מקסימלית.</p>
+            </div>
+            <div class="text-center">
+                <div class="text-5xl mb-4 text-blue-400">🎵</div>
+                <h3 class="text-xl font-bold mb-2">מוזיקה בהתאמה אישית</h3>
+                <p class="opacity-70">אנחנו כותבים ומפיקים שיר אישי עבורכם (ב-Suno) שילווה את הטיסה.</p>
+            </div>
+            <div class="text-center">
+                <div class="text-5xl mb-4 text-blue-400">🤸‍♂️</div>
+                <h3 class="text-xl font-bold mb-2">אקרו מסעיר</h3>
+                <p class="opacity-70">למי שאוהב אדרנלין: תרגילים מתקדמים בשמיים שמשולבים בקצב השיר.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing / Booking Section -->
+    <section id="pricing" class="py-20 px-6 max-w-5xl mx-auto">
+        <h2 class="text-4xl font-black text-center mb-16 underline decoration-blue-500 underline-offset-8">בחר את החבילה שלך</h2>
+        
+        <div class="grid md:grid-cols-2 gap-8">
+            <!-- Basic Package -->
+            <div class="bg-white p-8 rounded-3xl shadow-xl border border-gray-100 flex flex-col">
+                <h3 class="text-2xl font-bold mb-2">טיסת חוויה קלאסית</h3>
+                <p class="text-gray-500 mb-6 italic">התחלה מושלמת בשמי נתניה</p>
+                <div class="text-4xl font-black mb-8">490₪</div>
+                <ul class="space-y-4 mb-10 flex-grow">
+                    <li class="flex items-center gap-3">✅ כ-20 דקות באוויר</li>
+                    <li class="flex items-center gap-3">✅ צילום מלא של הטיסה</li>
+                    <li class="flex items-center gap-3">✅ אקרובטיקה לפי רצון הנוסע</li>
+                    <li class="flex items-center gap-3">✅ הטייס הכי קל בישראל (יותר זמן אוויר!)</li>
+                </ul>
+                <a href="https://wa.me/972506968511?text=היי%20אוהד,%20אני%20רוצה%20להזמין%20טיסה%20קלאסית" class="block w-full text-center bg-gray-900 text-white py-4 rounded-xl font-bold hover:bg-black transition-colors">
+                    הזמינו מקום עכשיו
+                </a>
+            </div>
+
+            <!-- VIP Music Package -->
+            <div id="gift" class="bg-blue-600 p-8 rounded-3xl shadow-xl text-white transform md:-translate-y-4 border-4 border-blue-400 relative overflow-hidden">
+                <div class="absolute top-4 left-4 bg-yellow-400 text-blue-900 text-xs font-black px-3 py-1 rounded-full uppercase">מומלץ כמתנה</div>
+                <h3 class="text-2xl font-bold mb-2">חבילת ה-VIP המוזיקלית</h3>
+                <p class="text-blue-100 mb-6 italic">טיסה + שיר אישי שייכתב עליכם!</p>
+                <div class="text-4xl font-black mb-8">690₪</div>
+                <ul class="space-y-4 mb-10 flex-grow">
+                    <li class="flex items-center gap-3">✅ כל מה שיש בחבילה הקלאסית</li>
+                    <li class="flex items-center gap-3">✨ הפקת שיר אישי (Suno) עם המילים שלכם</li>
+                    <li class="flex items-center gap-3">✨ עריכת סרטון הטיסה עם השיר שלכם</li>
+                    <li class="flex items-center gap-3">🎁 שובר מתנה דיגיטלי מעוצב</li>
+                </ul>
+                <a href="https://wa.me/972506968511?text=היי%20אוהד,%20אני%20רוצה%20להזמין%20שובר%20מתנה%20VIP" class="block w-full text-center bg-yellow-400 text-blue-900 py-4 rounded-xl font-bold hover:bg-yellow-300 transition-colors shadow-lg">
+                    קנו כמתנה עכשיו 🎁
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials / Social Proof -->
+    <section class="bg-gray-100 py-20 px-6">
+        <div class="max-w-4xl mx-auto text-center">
+            <h2 class="text-2xl font-bold mb-10 italic">"אוהד הוא לא רק טייס, הוא אמן. המוזיקה בשמיים הפכה את הטיסה למשהו שאי אפשר להסביר במילים."</h2>
+            <div class="flex flex-col items-center">
+                <div class="w-16 h-16 bg-blue-500 rounded-full mb-4"></div>
+                <div class="font-bold">מיכל כהן, נתניה</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-white py-12 px-6 border-t border-gray-100 text-center">
+        <p class="font-bold mb-4">סחלב מצנחים - בכיכר פנצ'ו, נתניה</p>
+        <p class="text-gray-500 text-sm mb-6">צמחוני? רגיש לחלב? דברו איתי, נמצא איפה לאכול אחרי הנחיתה 😉</p>
+        <div class="flex justify-center gap-6">
+            <a href="https://wa.me/972506968511" class="text-green-600 font-bold">WhatsApp</a>
+            <a href="https://www.youtube.com/@OHADSUCHOVOLSKY" class="text-red-600 font-bold">YouTube</a>
+        </div>
+        <p class="mt-10 text-xs text-gray-400">© 2024 כל הזכויות שמורות לאוהד סוחובולסקי</p>
+    </footer>
+
+    <script>
+        function scrollToSection(id) {
+            document.getElementById(id).scrollIntoView({ behavior: 'smooth' });
+        }
+    </script>
+</body>
+</html>
